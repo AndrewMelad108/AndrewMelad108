@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=andrewmelad108" alt="andrewmelad108" /></a> </p>
 
-- 🔭 I’m currently working on [Protfolio-React](https://github.com/AndrewMelad108/Protfolio-React)
+- 🔭 I’m currently working on [Protfolio-React](https://portfolio-9d760.web.app/)
 
 - 🌱 I’m currently learning **React.js & Next.js**
 
