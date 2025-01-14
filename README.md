@@ -1,3 +1,4 @@
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=ADFF2F&height=120&section=header"/>
 <h1 align="center">Hi 👋, I'm Andrew Melad</h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=andrewmelad108&label=Profile%20views&color=0e75b6&style=flat" alt="andrewmelad108" /> </p>
 
