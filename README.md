@@ -1,4 +1,10 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=ADFF2F&height=120&section=header"/>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=CarlosAlexandre197&show_icons=true&theme=dark" style="border: 1px solid white; border-radius: 5px; margin: 10px;">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=CarlosAlexandre197&show_icons=true&theme=dark" style="border: 1px solid white; border-radius: 5px; margin: 10px;">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=CarlosAlexandre197&show_icons=true&theme=dark" style="border: 1px solid white; border-radius: 5px; margin: 10px;"> 
+    
+</div>
 <h1 align="center">Hi 👋, I'm Andrew Melad</h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=andrewmelad108&label=Profile%20views&color=0e75b6&style=flat" alt="andrewmelad108" /> </p>
 
