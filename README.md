@@ -9,7 +9,7 @@
 
 - 🔭 I’m currently working on AI-Personal-Assistants 
 
-- 🌱 I’m currently learning **React Native** and Next.js with TS
+- 🌱 I’m currently learning **AI Automation SaaS with Next JS**| **Neon** | **Inngest** | **Better Auth** | **Cryptomus**
 
 - 👨‍💻 All of my projects are available at [https://protfolio-five-dun.vercel.app/](https://protfolio-five-dun.vercel.app/)
 
