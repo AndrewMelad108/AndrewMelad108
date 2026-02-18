@@ -3,8 +3,6 @@
 <h1 align="center">Hi 👋, I'm Andrew Melad</h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=andrewmelad108&label=Profile%20views&color=0e75b6&style=flat" alt="andrewmelad108" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=andrewmelad108" alt="andrewmelad108" /></a> </p>
-
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
 - 🔭 I’m currently working on AI-Personal-Assistants 
