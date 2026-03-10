@@ -1,21 +1,21 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=140&section=header&text=Andrew%20Melad&fontSize=36&fontColor=ffffff&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:0F2027,50:203A43,100:2C5364&section=header&text=Andrew%20Melad&fontSize=34&fontColor=ffffff&animation=fadeIn" />
 
-<h1 align="center">Hi, I'm Andrew Melad 👋</h1>
-<h3 align="center">Mid-Level Frontend Developer | React, Vue, React Native</h3>
+<h1 align="center">Hi 👋, I'm Andrew Melad</h1>
+<h3 align="center">Mid-Level Frontend Developer | React • Vue • React Native</h3>
 
 <p align="center">
-  I build modern web and mobile applications with clean UI, scalable architecture, and a strong focus on real-world product development.
+  I build modern web and mobile applications with clean UI, reusable components, and scalable frontend architecture.
 </p>
 
 <p align="center">
   <a href="https://protfolio-five-dun.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-1f6feb?style=for-the-badge&logo=vercel&logoColor=white" />
+    <img src="https://img.shields.io/badge/Portfolio-Visit-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
   <a href="mailto:andrewmelad108@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-d14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://www.linkedin.com/in/andrewmelad/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Andrew%20Melad-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-Andrew%20Melad-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
 
@@ -23,47 +23,15 @@
 
 ## 👨‍💻 About Me
 
-- 🚀 I’m currently working on **AI-powered personal assistant products**
-- 🌱 I’m expanding my stack with **AI Automation SaaS**, **Next.js**, **Neon**, **Inngest**, **Better Auth**, and **Cryptomus**
-- 💡 I enjoy building **responsive dashboards**, **interactive UIs**, and **production-ready mobile apps**
-- 💬 Ask me about **React, Vue, React Native, JavaScript, and modern frontend architecture**
+- 🔭 Currently working on **AI Personal Assistants**
+- 🌱 Currently learning **AI Automation SaaS with Next.js, Neon, Inngest, Better Auth, and Cryptomus**
+- 💬 Ask me about **Vue, React, React Native, JavaScript, and TypeScript**
+- 🌐 Portfolio: **[protfolio-five-dun.vercel.app](https://protfolio-five-dun.vercel.app/)**
 - 📫 Reach me at **andrewmelad108@gmail.com**
 
 ---
 
-## 🛠 Tech Stack
-
-<p align="center">
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="42" height="42"/></a>
-  <a href="https://vuejs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="Vue" width="42" height="42"/></a>
-  <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"><img src="https://reactnative.dev/img/header_logo.svg" alt="React Native" width="42" height="42"/></a>
-  <a href="https://nextjs.org/" target="_blank" rel="noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="Next.js" width="42" height="42"/></a>
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="42" height="42"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="42" height="42"/></a>
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="42" height="42"/></a>
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="42" height="42"/></a>
-  <a href="https://expressjs.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express" width="42" height="42"/></a>
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="42" height="42"/></a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="42" height="42"/></a>
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="42" height="42"/></a>
-</p>
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=andrewmelad108&show_icons=true&theme=tokyonight&hide_border=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=andrewmelad108&show_icons=true&locale=en&layout=compact&theme=tokyonight&hide_border=true" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=andrewmelad108&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-## 🌐 Connect With Me
+## 🤝 Connect With Me
 
 <p align="center">
   <a href="https://www.linkedin.com/in/andrewmelad/" target="_blank">
@@ -72,16 +40,45 @@
   <a href="mailto:andrewmelad108@gmail.com">
     <img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" />
   </a>
+  <a href="https://github.com/AndrewMelad108" target="_blank">
+    <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
+  </a>
 </p>
+
+---
+
+## 🛠 Languages and Tools
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,bootstrap,js,ts,react,vue,nextjs,reactivex,nodejs,express,mongodb,git,linux,tailwind&perline=8" />
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=AndrewMelad108&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub Stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndrewMelad108&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=AndrewMelad108&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+
+---
+
+## 🚀 Featured Focus
+
+- Building responsive and scalable frontend applications
+- Developing web and mobile user experiences
+- Exploring AI-powered SaaS products and automation workflows
+- Improving code quality, performance, and developer experience
 
 ---
 
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/AndrewMelad108/AndrewMelad108/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </p>
