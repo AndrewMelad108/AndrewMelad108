@@ -8,8 +8,8 @@
 </p>
 
 <p align="center">
-  <a href="https://komarev.com/ghpvc/?username=AndrewMelad108&label=Profile%20views&color=0e75b6&style=for-the-badge">
-    <img src="https://komarev.com/ghpvc/?username=AndrewMelad108&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="profile views" />
+  <a href="https://komarev.com/ghpvc/?username=AndrewMelad108&label=Profile%20Views&color=0e75b6&style=for-the-badge">
+    <img src="https://komarev.com/ghpvc/?username=AndrewMelad108&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="profile views" />
   </a>
   <a href="https://protfolio-five-dun.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-Visit-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
@@ -28,8 +28,7 @@
 
 - 🔭 I’m currently working on **AI Personal Assistants**
 - 🌱 I’m currently learning **AI Automation SaaS with Next.js, Neon, Inngest, Better Auth, and Cryptomus**
-- 👨‍💻 All of my projects are available at  
-  **[protfolio-five-dun.vercel.app](https://protfolio-five-dun.vercel.app/)**
+- 👨‍💻 All of my projects are available at **[protfolio-five-dun.vercel.app](https://protfolio-five-dun.vercel.app/)**
 - 💬 Ask me about **Vue, React, React Native**
 - 📫 Reach me at **andrewmelad108@gmail.com**
 
@@ -71,7 +70,7 @@
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AndrewMelad108&theme=algolia&no-frame=true&no-bg=true&margin-w=10&row=1" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=AndrewMelad108&theme=algolia&no-frame=true&no-bg=true&margin-w=8&margin-h=8" alt="GitHub Trophies" />
 </p>
 
 ---
@@ -110,7 +109,7 @@
 ## 📉 Contribution Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AndrewMelad108&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AndrewMelad108&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Activity Graph" />
 </p>
 
 ---
