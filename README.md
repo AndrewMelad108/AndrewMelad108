@@ -39,9 +39,9 @@
 <img src="https://skillicons.dev/icons?i=linkedin" width="40"/>
 </a>
 
-<a href="https://facebook.com/andrewmelad">
+<!-- <a href="https://facebook.com/andrewmelad">
 <img src="https://skillicons.dev/icons?i=facebook" width="40"/>
-</a>
+</a> -->
 
 </p>
 
