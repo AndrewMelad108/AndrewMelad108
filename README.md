@@ -43,3 +43,83 @@
     src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
   />
 </picture>
+
+
+---
+
+<h3 align="center">✨ More Visuals</h3>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=ADFF2F&center=true&vCenter=true&width=700&lines=Frontend+Developer;React+%7C+Vue+%7C+React+Native;Building+AI+Personal+Assistants;Learning+AI+Automation+SaaS+with+Next.js" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=andrewmelad108&label=Profile%20views&color=ADFF2F&style=for-the-badge" alt="profile views" />
+  <img src="https://img.shields.io/github/followers/andrewmelad108?label=Followers&style=for-the-badge&color=ADFF2F" alt="followers" />
+  <img src="https://img.shields.io/github/stars/andrewmelad108?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&color=ADFF2F" alt="stars" />
+</p>
+
+---
+
+<h3 align="center">🏆 GitHub Trophies</h3>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=andrewmelad108&theme=algolia&no-frame=true&no-bg=true&margin-w=12&margin-h=12" alt="github trophies" />
+</p>
+
+---
+
+<h3 align="center">📈 Contribution Graph</h3>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=andrewmelad108&bg_color=0d1117&color=ADFF2F&line=ADFF2F&point=FFFFFF&area=true&hide_border=true" alt="activity graph" />
+</p>
+
+---
+
+<h3 align="center">⚡ Extra Stats</h3>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=andrewmelad108&theme=github_dark" alt="profile details" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=andrewmelad108&theme=github_dark" alt="repos per language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=andrewmelad108&theme=github_dark" alt="most commit language" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=andrewmelad108&theme=github_dark" alt="stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=andrewmelad108&theme=github_dark&utcOffset=2" alt="productive time" />
+</p>
+
+---
+
+<h3 align="center">🚀 Current Focus</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Automation%20SaaS-ADFF2F?style=for-the-badge&logo=openai&logoColor=black" />
+  <img src="https://img.shields.io/badge/Next.js-App%20Router-black?style=for-the-badge&logo=next.js" />
+  <img src="https://img.shields.io/badge/Database-Neon-00E699?style=for-the-badge&logo=postgresql&logoColor=black" />
+  <img src="https://img.shields.io/badge/Workflow-Inngest-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Auth-Better%20Auth-FFCC00?style=for-the-badge&logo=auth0&logoColor=black" />
+  <img src="https://img.shields.io/badge/Payments-Cryptomus-4CAF50?style=for-the-badge" />
+</p>
+
+---
+
+<h3 align="center">💡 Dev Quote</h3>
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="quote" />
+</p>
+
+---
+
+<h3 align="center">☕ Support Me</h3>
+
+<p align="center">
+  <a href="mailto:andrewmelad108@gmail.com">
+    <img src="https://img.shields.io/badge/Contact%20Me-Email-ADFF2F?style=for-the-badge&logo=gmail&logoColor=black" />
+  </a>
+</p>
