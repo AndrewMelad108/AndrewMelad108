@@ -61,20 +61,6 @@
 
 </p>
 
----
-
-# 📊 GitHub Stats
-
-<p align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=andrewmelad108&show_icons=true&theme=chartreuse-dark&hide_border=true"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=andrewmelad108&layout=compact&theme=chartreuse-dark&hide_border=true"/>
-
-</p>
-
----
-
 # 🔥 GitHub Streak
 
 <p align="center">
@@ -92,18 +78,6 @@
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=andrewmelad108&bg_color=0d1117&color=ADFF2F&line=ADFF2F&point=FFFFFF&area=true&hide_border=true"/>
 
 </p>
-
----
-
-# 🏆 GitHub Trophies
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=andrewmelad108&theme=algolia&no-frame=true&no-bg=true&margin-w=10"/>
-
-</p>
-
----
 
 # ⚡ Profile Summary
 
