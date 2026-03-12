@@ -138,9 +138,9 @@ srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution
 # ☕ Support Me
 
 <p align="center">
-
-<img src="https://img.shields.io/badge/Email-Contact%20Me-ADFF2F?style=for-the-badge&logo=gmail&logoColor=black"/>
-
+  <a href="mailto:andrewmelad108@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-ADFF2F?style=for-the-badge&logo=gmail&logoColor=black"/>
+  </a>
 </p>
 
 ---
