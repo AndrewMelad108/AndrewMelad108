@@ -24,7 +24,7 @@
 - Cryptomus  
 
 👨‍💻 My Projects  
-👉 https://protfolio-five-dun.vercel.app/
+👉 https://protfolio-five-dun.vercel.app/#projects
 
 💬 Ask me about  
 
