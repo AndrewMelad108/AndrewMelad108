@@ -64,7 +64,7 @@ jobs:
           user: ${{ github.repository_owner }}
 
           filename: github-metrics.svg
-          output_action: none
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           template: classic
 
@@ -91,7 +91,7 @@ jobs:
           user: ${{ github.repository_owner }}
 
           filename: github-calendar.svg
-          output_action: none
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           base: ""
 
@@ -111,7 +111,7 @@ jobs:
           user: ${{ github.repository_owner }}
 
           filename: github-activity.svg
-          output_action: none
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           base: ""
 
@@ -144,7 +144,7 @@ jobs:
           user: ${{ github.repository_owner }}
 
           filename: github-achievements.svg
-          output_action: none
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           base: ""
 
