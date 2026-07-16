@@ -1,29 +1,193 @@
-name: Generate GitHub Profile Summary Cards
+name: Generate GitHub Profile Assets
 
 on:
   schedule:
+    # Run every day at 12:00 AM UTC
     - cron: "0 0 * * *"
 
+  # Allow manual run from the Actions page
   workflow_dispatch:
 
 permissions:
   contents: write
 
+# Prevent two profile jobs from running at the same time
+concurrency:
+  group: github-profile-assets
+  cancel-in-progress: true
+
 jobs:
-  generate-cards:
+  generate-profile-assets:
     runs-on: ubuntu-latest
 
     steps:
+      # -------------------------------------------------------
+      # 1. Checkout repository
+      # -------------------------------------------------------
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
+      # -------------------------------------------------------
+      # 2. Generate the five original summary cards
+      # -------------------------------------------------------
       - name: Generate profile summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+
         with:
-          USERNAME: andrewmelad108
+          USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: main
           UTC_OFFSET: 2
-          AUTO_PUSH: true
+
+          # We will commit everything together at the end
+          AUTO_PUSH: false
+
           THEME: github_dark
+
+          # Available:
+          # fade, rise, draw, stagger, load, sequence,
+          # tint, rgb, rgb-soft
+          ANIMATION: load
+          DURATION: 3
+
+      # -------------------------------------------------------
+      # 3. Generate full GitHub account overview
+      # -------------------------------------------------------
+      - name: Generate GitHub account overview
+        uses: lowlighter/metrics@latest
+
+        with:
+          token: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+
+          filename: github-metrics.svg
+          output_action: none
+
+          template: classic
+
+          base: >-
+            header,
+            activity,
+            community,
+            repositories,
+            metadata
+
+          # Improves commits, PRs and issues accuracy
+          base_indepth: yes
+
+          config_timezone: Africa/Cairo
+
+      # -------------------------------------------------------
+      # 4. Generate a full-year 3D contribution calendar
+      # -------------------------------------------------------
+      - name: Generate full-year contribution calendar
+        uses: lowlighter/metrics@latest
+
+        with:
+          token: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+
+          filename: github-calendar.svg
+          output_action: none
+
+          base: ""
+
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          config_timezone: Africa/Cairo
+
+      # -------------------------------------------------------
+      # 5. Generate recent activity and coding habits
+      # -------------------------------------------------------
+      - name: Generate activity and coding habits
+        uses: lowlighter/metrics@latest
+
+        with:
+          token: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+
+          filename: github-activity.svg
+          output_action: none
+
+          base: ""
+
+          # Recent GitHub activity
+          plugin_activity: yes
+          plugin_activity_limit: 8
+          plugin_activity_days: 30
+          plugin_activity_filter: all
+          plugin_activity_timestamps: yes
+
+          # Coding habits
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 30
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: graph
+          plugin_habits_trim: yes
+
+          config_timezone: Africa/Cairo
+
+      # -------------------------------------------------------
+      # 6. Generate GitHub achievements
+      # -------------------------------------------------------
+      - name: Generate GitHub achievements
+        uses: lowlighter/metrics@latest
+
+        with:
+          token: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+
+          filename: github-achievements.svg
+          output_action: none
+
+          base: ""
+
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: C
+          plugin_achievements_secrets: yes
+
+      # -------------------------------------------------------
+      # 7. Generate contribution snake animation
+      # -------------------------------------------------------
+      - name: Create assets directory
+        run: mkdir -p assets
+
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
+          outputs: |
+            assets/github-snake.svg?palette=github-light
+            assets/github-snake-dark.svg?palette=github-dark
+
+      # -------------------------------------------------------
+      # 8. Commit all generated assets
+      # -------------------------------------------------------
+      - name: Commit generated profile assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            profile-summary-card-output \
+            github-metrics.svg \
+            github-calendar.svg \
+            github-activity.svg \
+            github-achievements.svg \
+            assets/
+
+          if git diff --cached --quiet; then
+            echo "No profile changes to commit."
+          else
+            git commit -m "chore: update GitHub profile assets"
+            git push
+          fi
