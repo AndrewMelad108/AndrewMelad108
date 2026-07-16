@@ -1,37 +1,36 @@
 name: Generate GitHub Profile Assets
 
 on:
+  # Run automatically every day at 12:00 AM UTC
   schedule:
-    # Run every day at 12:00 AM UTC
     - cron: "0 0 * * *"
 
-  # Allow manual run from the Actions page
+  # Allow manual execution from GitHub Actions
   workflow_dispatch:
 
 permissions:
   contents: write
 
-# Prevent two profile jobs from running at the same time
+# Prevent multiple runs from modifying the profile simultaneously
 concurrency:
   group: github-profile-assets
   cancel-in-progress: true
 
 jobs:
-  generate-profile-assets:
+  # =========================================================
+  # 1. Generate GitHub Profile Summary Cards
+  # =========================================================
+  summary-cards:
+    name: Generate Summary Cards
     runs-on: ubuntu-latest
 
     steps:
-      # -------------------------------------------------------
-      # 1. Checkout repository
-      # -------------------------------------------------------
       - name: Checkout repository
         uses: actions/checkout@v5
         with:
+          ref: main
           fetch-depth: 0
 
-      # -------------------------------------------------------
-      # 2. Generate the five original summary cards
-      # -------------------------------------------------------
       - name: Generate profile summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
@@ -42,29 +41,38 @@ jobs:
           BRANCH_NAME: main
           UTC_OFFSET: 2
 
-          # We will commit everything together at the end
-          AUTO_PUSH: false
+          # Let this action commit its own generated cards
+          AUTO_PUSH: true
 
           THEME: github_dark
 
-          # Available:
-          # fade, rise, draw, stagger, load, sequence,
-          # tint, rgb, rgb-soft
+          # Card animation
           ANIMATION: load
           DURATION: 3
 
+  # =========================================================
+  # 2. Generate Detailed GitHub Metrics
+  # =========================================================
+  metrics:
+    name: Generate Detailed Metrics
+    needs: summary-cards
+    runs-on: ubuntu-latest
+
+    steps:
       # -------------------------------------------------------
-      # 3. Generate full GitHub account overview
+      # Complete account overview
       # -------------------------------------------------------
       - name: Generate GitHub account overview
         uses: lowlighter/metrics@latest
 
         with:
           token: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
-          user: ${{ github.repository_owner }}
-
-          filename: github-metrics.svg
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: main
+          committer_message: "chore: update GitHub account overview"
+
+          user: ${{ github.repository_owner }}
+          filename: github-metrics.svg
 
           template: classic
 
@@ -75,23 +83,23 @@ jobs:
             repositories,
             metadata
 
-          # Improves commits, PRs and issues accuracy
           base_indepth: yes
-
           config_timezone: Africa/Cairo
 
       # -------------------------------------------------------
-      # 4. Generate a full-year 3D contribution calendar
+      # Full-year isometric contribution calendar
       # -------------------------------------------------------
       - name: Generate full-year contribution calendar
         uses: lowlighter/metrics@latest
 
         with:
           token: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
-          user: ${{ github.repository_owner }}
-
-          filename: github-calendar.svg
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: main
+          committer_message: "chore: update contribution calendar"
+
+          user: ${{ github.repository_owner }}
+          filename: github-calendar.svg
 
           base: ""
 
@@ -101,17 +109,19 @@ jobs:
           config_timezone: Africa/Cairo
 
       # -------------------------------------------------------
-      # 5. Generate recent activity and coding habits
+      # Recent activity and coding habits
       # -------------------------------------------------------
       - name: Generate activity and coding habits
         uses: lowlighter/metrics@latest
 
         with:
           token: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
-          user: ${{ github.repository_owner }}
-
-          filename: github-activity.svg
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: main
+          committer_message: "chore: update GitHub activity"
+
+          user: ${{ github.repository_owner }}
+          filename: github-activity.svg
 
           base: ""
 
@@ -121,6 +131,7 @@ jobs:
           plugin_activity_days: 30
           plugin_activity_filter: all
           plugin_activity_timestamps: yes
+          plugin_activity_visibility: all
 
           # Coding habits
           plugin_habits: yes
@@ -134,17 +145,19 @@ jobs:
           config_timezone: Africa/Cairo
 
       # -------------------------------------------------------
-      # 6. Generate GitHub achievements
+      # GitHub achievements
       # -------------------------------------------------------
       - name: Generate GitHub achievements
         uses: lowlighter/metrics@latest
 
         with:
           token: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
-          user: ${{ github.repository_owner }}
-
-          filename: github-achievements.svg
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: main
+          committer_message: "chore: update GitHub achievements"
+
+          user: ${{ github.repository_owner }}
+          filename: github-achievements.svg
 
           base: ""
 
@@ -153,9 +166,23 @@ jobs:
           plugin_achievements_threshold: C
           plugin_achievements_secrets: yes
 
-      # -------------------------------------------------------
-      # 7. Generate contribution snake animation
-      # -------------------------------------------------------
+  # =========================================================
+  # 3. Generate and Commit Contribution Snake
+  # =========================================================
+  contribution-snake:
+    name: Generate Contribution Snake
+    needs: metrics
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout again after Metrics commits,
+      # so this job gets the newest main branch
+      - name: Checkout latest repository
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+
       - name: Create assets directory
         run: mkdir -p assets
 
@@ -164,30 +191,29 @@ jobs:
 
         with:
           github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
           outputs: |
             assets/github-snake.svg?palette=github-light
             assets/github-snake-dark.svg?palette=github-dark
 
-      # -------------------------------------------------------
-      # 8. Commit all generated assets
-      # -------------------------------------------------------
-      - name: Commit generated profile assets
+      - name: Commit contribution snake
+        shell: bash
         run: |
+          set -e
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add \
-            profile-summary-card-output \
-            github-metrics.svg \
-            github-calendar.svg \
-            github-activity.svg \
-            github-achievements.svg \
-            assets/
+          git add assets/
 
           if git diff --cached --quiet; then
-            echo "No profile changes to commit."
-          else
-            git commit -m "chore: update GitHub profile assets"
-            git push
+            echo "No snake changes to commit."
+            exit 0
           fi
+
+          git commit -m "chore: update contribution snake"
+
+          # Retry safely if the remote branch changed
+          git pull --rebase origin main
+          git push origin HEAD:main
