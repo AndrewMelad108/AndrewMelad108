@@ -1,11 +1,43 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=ADFF2F&height=150&section=header&text=Andrew%20Melad&fontSize=40&fontColor=000000"/>
+<img
+  width="100%"
+  src="https://capsule-render.vercel.app/api?type=waving&color=ADFF2F&height=160&section=header&text=Andrew%20Melad&fontSize=42&fontColor=000000&animation=fadeIn&fontAlignY=35"
+  alt="Andrew Melad Header"
+/>
 
 <h1 align="center">Hi 👋, I'm Andrew Melad</h1>
 
-<h3 align="center">Frontend Developer</h3>
+<h3 align="center">
+  Frontend Developer | React, Vue, Next.js & React Native
+</h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=ADFF2F&center=true&vCenter=true&width=700&lines=Frontend+Developer;React+%7C+Vue+%7C+React+Native;Building+AI+Personal+Assistants;Learning+AI+Automation+SaaS+with+Next.js" />
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=ADFF2F&center=true&vCenter=true&width=750&lines=Frontend+Developer;React+%7C+Vue+%7C+Next.js+%7C+React+Native;Building+AI+Personal+Assistants;Learning+AI+Automation+SaaS"
+    alt="Typing introduction"
+  />
+</p>
+
+<p align="center">
+  <a href="https://protfolio-five-dun.vercel.app/#projects">
+    <img
+      src="https://img.shields.io/badge/View_My_Projects-ADFF2F?style=for-the-badge&logo=vercel&logoColor=000000"
+      alt="View My Projects"
+    />
+  </a>
+
+  <a href="https://www.linkedin.com/in/andrewmelad/">
+    <img
+      src="https://img.shields.io/badge/LinkedIn-Connect-ADFF2F?style=for-the-badge&logo=linkedin&logoColor=000000"
+      alt="LinkedIn"
+    />
+  </a>
+
+  <a href="mailto:andrewmelad108@gmail.com">
+    <img
+      src="https://img.shields.io/badge/Email-Contact_Me-ADFF2F?style=for-the-badge&logo=gmail&logoColor=000000"
+      alt="Contact Me"
+    />
+  </a>
 </p>
 
 ---
@@ -14,72 +46,176 @@
 
 - 🔭 I’m currently working on **AI Personal Assistants**
 - 🌱 I’m currently learning **AI Automation SaaS**
+- 💻 I enjoy building responsive, scalable and user-friendly web applications
+- ⚡ I’m interested in frontend architecture, automation and AI-powered products
+- 🤝 I’m open to collaborating on interesting frontend and SaaS projects
 
-**Tech Stack I'm Exploring**
+### 💬 Ask Me About
 
-- Next.js  
-- Neon Database  
-- Inngest  
-- Better Auth  
-- Cryptomus  
+- React and Next.js
+- Vue.js
+- React Native
+- JavaScript and TypeScript
+- Frontend architecture
+- REST APIs and Node.js
+- AI automation workflows
+- Responsive UI development
 
-👨‍💻 My Projects  
-👉 https://protfolio-five-dun.vercel.app/#projects
+### 🧠 Tech Stack I’m Exploring
 
-💬 Ask me about  
-
+- Next.js
+- Neon Database
+- Inngest
+- Better Auth
+- Cryptomus
+- AI Automation
+- SaaS Architecture
 
 ---
 
 # 🌐 Connect With Me
 
-<p align="left">
+<p align="center">
+  <a href="https://www.linkedin.com/in/andrewmelad/">
+    <img
+      src="https://skillicons.dev/icons?i=linkedin"
+      width="48"
+      alt="LinkedIn"
+    />
+  </a>
 
-<a href="https://www.linkedin.com/in/andrewmelad/">
-<img src="https://skillicons.dev/icons?i=linkedin" width="40"/>
-</a>
+  &nbsp;&nbsp;
 
-<!-- <a href="https://facebook.com/andrewmelad">
-<img src="https://skillicons.dev/icons?i=facebook" width="40"/>
-</a> -->
-
+  <a href="mailto:andrewmelad108@gmail.com">
+    <img
+      src="https://skillicons.dev/icons?i=gmail"
+      width="48"
+      alt="Gmail"
+    />
+  </a>
 </p>
 
 ---
 
 # 🛠 Languages & Tools
 
+<h3 align="center">Frontend Development</h3>
+
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=html,css,js,ts" />
-
-<img src="https://skillicons.dev/icons?i=react,next,vue,nodejs,express" />
-
-<img src="https://skillicons.dev/icons?i=mongodb,git,linux,tailwind,bootstrap" />
-
-<img src="https://skillicons.dev/icons?i=reactnative" />
-
+  <img
+    src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,vue"
+    alt="Frontend technologies"
+  />
 </p>
 
-# 🔥 GitHub Streak
+<h3 align="center">Styling & UI</h3>
 
 <p align="center">
+  <img
+    src="https://skillicons.dev/icons?i=tailwind,bootstrap"
+    alt="Styling technologies"
+  />
+</p>
 
-<img src="https://streak-stats.demolab.com?user=andrewmelad108&theme=chartreuse-dark&hide_border=true"/>
+<h3 align="center">Backend & Databases</h3>
 
+<p align="center">
+  <img
+    src="https://skillicons.dev/icons?i=nodejs,express,mongodb"
+    alt="Backend technologies"
+  />
+</p>
+
+<h3 align="center">Mobile, Tools & Systems</h3>
+
+<p align="center">
+  <img
+    src="https://skillicons.dev/icons?i=react,git,github,linux,vscode"
+    alt="Development tools"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://img.shields.io/badge/React_Native-Mobile_Development-ADFF2F?style=for-the-badge&logo=react&logoColor=000000"
+    alt="React Native"
+  />
 </p>
 
 ---
 
-# 📈 Activity Graph
+# ⚡ GitHub Profile Summary
 
 <p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=andrewmelad108&bg_color=0d1117&color=ADFF2F&line=ADFF2F&point=FFFFFF&area=true&hide_border=true"/>
-
+  <img
+    src="./profile-summary-card-output/github_dark/0-profile-details.svg"
+    alt="GitHub Profile Details"
+    width="100%"
+  />
 </p>
 
-<br>
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img
+        src="./profile-summary-card-output/github_dark/1-repos-per-language.svg"
+        alt="Repositories Per Language"
+        width="100%"
+      />
+    </td>
+
+    <td width="50%" align="center">
+      <img
+        src="./profile-summary-card-output/github_dark/2-most-commit-language.svg"
+        alt="Most Commit Language"
+        width="100%"
+      />
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%" align="center">
+      <img
+        src="./profile-summary-card-output/github_dark/3-stats.svg"
+        alt="GitHub Statistics"
+        width="100%"
+      />
+    </td>
+
+    <td width="50%" align="center">
+      <img
+        src="./profile-summary-card-output/github_dark/4-productive-time.svg"
+        alt="Productive Time"
+        width="100%"
+      />
+    </td>
+  </tr>
+</table>
+
+---
+
+# 🔥 GitHub Streak
+
+<p align="center">
+  <img
+    src="https://streak-stats.demolab.com?user=andrewmelad108&theme=chartreuse-dark&hide_border=true"
+    alt="Andrew Melad GitHub Streak"
+  />
+</p>
+
+---
+
+# 📈 Contribution Activity Graph
+
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=andrewmelad108&bg_color=0d1117&color=ADFF2F&line=ADFF2F&point=FFFFFF&area=true&hide_border=true"
+    alt="GitHub Contribution Activity Graph"
+    width="100%"
+  />
+</p>
+
+---
 
 # 📊 Complete GitHub Overview
 
@@ -91,9 +227,9 @@
   />
 </p>
 
-<br>
+---
 
-## 🗓️ Full-Year Contribution Calendar
+# 🗓️ Full-Year Contribution Calendar
 
 <p align="center">
   <img
@@ -103,9 +239,9 @@
   />
 </p>
 
-<br>
+---
 
-## 🔥 Recent Activity & Coding Habits
+# 🔥 Recent Activity & Coding Habits
 
 <p align="center">
   <img
@@ -115,9 +251,9 @@
   />
 </p>
 
-<br>
+---
 
-## 🏆 GitHub Achievements
+# 🏆 GitHub Achievements
 
 <p align="center">
   <img
@@ -127,9 +263,9 @@
   />
 </p>
 
-<br>
+---
 
-## 🐍 Contribution Snake
+# 🐍 Contribution Snake
 
 <p align="center">
   <picture>
@@ -151,56 +287,52 @@
   </picture>
 </p>
 
+---
+
+# 💡 Developer Quote
+
+<p align="center">
+  <img
+    src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"
+    alt="Developer Quote"
+  />
+</p>
+
+---
+
+# ☕ Support & Contact
+
+<p align="center">
+  Have an idea, project or collaboration opportunity?
+</p>
+
+<p align="center">
+  <a href="mailto:andrewmelad108@gmail.com">
+    <img
+      src="https://img.shields.io/badge/Email-Contact_Me-ADFF2F?style=for-the-badge&logo=gmail&logoColor=000000"
+      alt="Contact Andrew Melad"
+    />
+  </a>
+
+  <a href="https://protfolio-five-dun.vercel.app/#projects">
+    <img
+      src="https://img.shields.io/badge/Portfolio-View_Projects-ADFF2F?style=for-the-badge&logo=vercel&logoColor=000000"
+      alt="Andrew Melad Portfolio"
+    />
+  </a>
+</p>
+
 <br>
 
 <p align="center">
   <i>
-    Statistics and profile assets are automatically updated every day
+    GitHub statistics and profile assets are automatically updated every day
     using GitHub Actions.
   </i>
 </p>
 
----
-
-# 🐍 Contribution Snake
-
-<picture>
-
-<source
-media="(prefers-color-scheme: dark)"
-srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg"
+<img
+  width="100%"
+  src="https://capsule-render.vercel.app/api?type=waving&color=ADFF2F&height=120&section=footer"
+  alt="Footer"
 />
-
-<source
-media="(prefers-color-scheme: light)"
-srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
-/>
-
-<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"/>
-
-</picture>
-
----
-
-# 💡 Dev Quote
-
-<p align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
-
-</p>
-
----
-
-# ☕ Support Me
-
-<p align="center">
-  <a href="mailto:andrewmelad108@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-ADFF2F?style=for-the-badge&logo=gmail&logoColor=black"/>
-  </a>
-</p>
-
----
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=ADFF2F&height=120&section=footer"/>
-
