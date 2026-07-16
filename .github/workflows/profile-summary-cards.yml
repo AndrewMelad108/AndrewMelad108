@@ -5,7 +5,7 @@ on:
   schedule:
     - cron: "0 0 * * *"
 
-  # Allow manual execution
+  # Allow manual execution from GitHub Actions
   workflow_dispatch:
 
 permissions:
@@ -39,6 +39,7 @@ jobs:
           BRANCH_NAME: main
           UTC_OFFSET: 2
 
+          # Summary action commits its generated files
           AUTO_PUSH: true
 
           THEME: github_dark
@@ -168,6 +169,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Get the latest main branch after Metrics commits
       - name: Checkout latest repository
         uses: actions/checkout@v5
         with:
@@ -188,7 +190,7 @@ jobs:
             assets/github-snake.svg?palette=github-light
             assets/github-snake-dark.svg?palette=github-dark
 
-      - name: Commit contribution snake
+      - name: Commit generated profile assets
         shell: bash
         run: |
           set -e
@@ -196,14 +198,20 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add assets/
+          echo "Generated assets:"
+          find assets -maxdepth 2 -type f -print || true
+
+          # Add all files that actually exist.
+          # This avoids pathspec errors for missing files.
+          git add -A
 
           if git diff --cached --quiet; then
-            echo "No snake changes to commit."
+            echo "No profile changes to commit."
             exit 0
           fi
 
-          git commit -m "chore: update contribution snake"
+          git commit -m "chore: update GitHub profile assets"
 
+          # Update local branch safely before pushing
           git pull --rebase origin main
           git push origin HEAD:main
