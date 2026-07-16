@@ -82,25 +82,34 @@
 # ⚡ Profile Summary
 
 <p align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=andrewmelad108&theme=github_dark"/>
-
+  <img
+    src="./profile-summary-card-output/github_dark/0-profile-details.svg"
+    alt="GitHub Profile Details"
+  />
 </p>
 
 <p align="center">
+  <img
+    src="./profile-summary-card-output/github_dark/1-repos-per-language.svg"
+    alt="Repositories Per Language"
+  />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=andrewmelad108&theme=github_dark"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=andrewmelad108&theme=github_dark"/>
-
+  <img
+    src="./profile-summary-card-output/github_dark/2-most-commit-language.svg"
+    alt="Most Commit Language"
+  />
 </p>
 
 <p align="center">
+  <img
+    src="./profile-summary-card-output/github_dark/3-stats.svg"
+    alt="GitHub Statistics"
+  />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=andrewmelad108&theme=github_dark"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=andrewmelad108&theme=github_dark&utcOffset=2"/>
-
+  <img
+    src="./profile-summary-card-output/github_dark/4-productive-time.svg"
+    alt="Productive Time"
+  />
 </p>
 
 ---
