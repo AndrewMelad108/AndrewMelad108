@@ -79,40 +79,85 @@
 
 </p>
 
-# ⚡ Profile Summary
+<br>
+
+# 📊 Complete GitHub Overview
 
 <p align="center">
   <img
-    src="./profile-summary-card-output/github_dark/0-profile-details.svg"
-    alt="GitHub Profile Details"
+    src="./github-metrics.svg"
+    alt="Complete GitHub Account Metrics"
     width="100%"
   />
 </p>
 
-<p align="center">
-  <img
-    src="./profile-summary-card-output/github_dark/1-repos-per-language.svg"
-    alt="Repositories Per Language"
-    width="49%"
-  />
-  <img
-    src="./profile-summary-card-output/github_dark/2-most-commit-language.svg"
-    alt="Most Commit Language"
-    width="49%"
-  />
-</p>
+<br>
+
+## 🗓️ Full-Year Contribution Calendar
 
 <p align="center">
   <img
-    src="./profile-summary-card-output/github_dark/3-stats.svg"
-    alt="GitHub Statistics"
-    width="49%"
+    src="./github-calendar.svg"
+    alt="Full-Year GitHub Contribution Calendar"
+    width="100%"
   />
+</p>
+
+<br>
+
+## 🔥 Recent Activity & Coding Habits
+
+<p align="center">
   <img
-    src="./profile-summary-card-output/github_dark/4-productive-time.svg"
-    alt="Productive Time"
-    width="49%"
+    src="./github-activity.svg"
+    alt="Recent GitHub Activity and Coding Habits"
+    width="100%"
   />
+</p>
+
+<br>
+
+## 🏆 GitHub Achievements
+
+<p align="center">
+  <img
+    src="./github-achievements.svg"
+    alt="GitHub Achievements"
+    width="100%"
+  />
+</p>
+
+<br>
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./assets/github-snake-dark.svg"
+    />
+
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="./assets/github-snake.svg"
+    />
+
+    <img
+      src="./assets/github-snake.svg"
+      alt="GitHub Contribution Snake Animation"
+      width="100%"
+    />
+  </picture>
+</p>
+
+<br>
+
+<p align="center">
+  <i>
+    Statistics and profile assets are automatically updated every day
+    using GitHub Actions.
+  </i>
 </p>
 
 ---
