@@ -5,13 +5,12 @@ on:
   schedule:
     - cron: "0 0 * * *"
 
-  # Allow manual execution from GitHub Actions
+  # Allow manual execution
   workflow_dispatch:
 
 permissions:
   contents: write
 
-# Prevent multiple runs from modifying the profile simultaneously
 concurrency:
   group: github-profile-assets
   cancel-in-progress: true
@@ -35,18 +34,14 @@ jobs:
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
-
         with:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: main
           UTC_OFFSET: 2
 
-          # Let this action commit its own generated cards
           AUTO_PUSH: true
 
           THEME: github_dark
-
-          # Card animation
           ANIMATION: load
           DURATION: 3
 
@@ -64,9 +59,9 @@ jobs:
       # -------------------------------------------------------
       - name: Generate GitHub account overview
         uses: lowlighter/metrics@latest
-
         with:
           token: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_branch: main
           committer_message: "chore: update GitHub account overview"
@@ -87,13 +82,13 @@ jobs:
           config_timezone: Africa/Cairo
 
       # -------------------------------------------------------
-      # Full-year isometric contribution calendar
+      # Full-year contribution calendar
       # -------------------------------------------------------
       - name: Generate full-year contribution calendar
         uses: lowlighter/metrics@latest
-
         with:
           token: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_branch: main
           committer_message: "chore: update contribution calendar"
@@ -113,9 +108,9 @@ jobs:
       # -------------------------------------------------------
       - name: Generate activity and coding habits
         uses: lowlighter/metrics@latest
-
         with:
           token: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_branch: main
           committer_message: "chore: update GitHub activity"
@@ -125,7 +120,6 @@ jobs:
 
           base: ""
 
-          # Recent GitHub activity
           plugin_activity: yes
           plugin_activity_limit: 8
           plugin_activity_days: 30
@@ -133,7 +127,6 @@ jobs:
           plugin_activity_timestamps: yes
           plugin_activity_visibility: all
 
-          # Coding habits
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 30
@@ -149,9 +142,9 @@ jobs:
       # -------------------------------------------------------
       - name: Generate GitHub achievements
         uses: lowlighter/metrics@latest
-
         with:
           token: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_branch: main
           committer_message: "chore: update GitHub achievements"
@@ -167,7 +160,7 @@ jobs:
           plugin_achievements_secrets: yes
 
   # =========================================================
-  # 3. Generate and Commit Contribution Snake
+  # 3. Generate Contribution Snake
   # =========================================================
   contribution-snake:
     name: Generate Contribution Snake
@@ -175,8 +168,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout again after Metrics commits,
-      # so this job gets the newest main branch
       - name: Checkout latest repository
         uses: actions/checkout@v5
         with:
@@ -188,10 +179,10 @@ jobs:
 
       - name: Generate contribution snake
         uses: Platane/snk/svg-only@v3
-
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           github_user_name: ${{ github.repository_owner }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
 
           outputs: |
             assets/github-snake.svg?palette=github-light
@@ -214,6 +205,5 @@ jobs:
 
           git commit -m "chore: update contribution snake"
 
-          # Retry safely if the remote branch changed
           git pull --rebase origin main
           git push origin HEAD:main
