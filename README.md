@@ -156,7 +156,7 @@
 
 <table>
   <tr>
-    <td width="50%" align="center">
+    <td width="49%" align="center">
       <img
         src="./profile-summary-card-output/github_dark/1-repos-per-language.svg"
         alt="Repositories Per Language"
@@ -174,7 +174,7 @@
   </tr>
 
   <tr>
-    <td width="50%" align="center">
+    <td width="49%" align="center">
       <img
         src="./profile-summary-card-output/github_dark/3-stats.svg"
         alt="GitHub Statistics"
