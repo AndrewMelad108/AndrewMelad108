@@ -48,7 +48,7 @@
 - 🌱 I’m currently learning **AI Automation SaaS**
 - 💻 I enjoy building responsive, scalable and user-friendly web applications
 - ⚡ I’m interested in frontend architecture, automation and AI-powered products
-- 🤝 I’m open to collaborating on interesting frontend and SaaS projects
+- 🤝 I’m open to collaborating on frontend, mobile and SaaS projects
 
 ### 💬 Ask Me About
 
@@ -126,11 +126,11 @@
   />
 </p>
 
-<h3 align="center">Mobile, Tools & Systems</h3>
+<h3 align="center">Tools & Systems</h3>
 
 <p align="center">
   <img
-    src="https://skillicons.dev/icons?i=react,git,github,linux,vscode"
+    src="https://skillicons.dev/icons?i=git,github,linux,vscode"
     alt="Development tools"
   />
 </p>
@@ -235,30 +235,6 @@
   <img
     src="./github-calendar.svg"
     alt="Full-Year GitHub Contribution Calendar"
-    width="100%"
-  />
-</p>
-
----
-
-# 🔥 Recent Activity & Coding Habits
-
-<p align="center">
-  <img
-    src="./github-activity.svg"
-    alt="Recent GitHub Activity and Coding Habits"
-    width="100%"
-  />
-</p>
-
----
-
-# 🏆 GitHub Achievements
-
-<p align="center">
-  <img
-    src="./github-achievements.svg"
-    alt="GitHub Achievements"
     width="100%"
   />
 </p>
