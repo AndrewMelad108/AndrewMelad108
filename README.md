@@ -239,7 +239,6 @@
 </p>
 
 ---
----
 
 # 💡 Developer Quote
 
