@@ -75,7 +75,7 @@
 
 # 🌐 Connect With Me
 
-<p align="center">
+<p>
   <a href="https://www.linkedin.com/in/andrewmelad/">
     <img
       src="https://skillicons.dev/icons?i=linkedin"
@@ -144,11 +144,11 @@
 
 # ⚡ GitHub Profile Summary
 
-<p align="center">
+<p>
   <img
     src="./profile-summary-card-output/github_dark/0-profile-details.svg"
     alt="GitHub Profile Details"
-    width="100%"
+    width="49%"
   />
 </p>
 
@@ -156,7 +156,7 @@
   <img
   src="./profile-summary-card-output/github_dark/1-repos-per-language.svg"
   alt="Repositories Per Language"
-  width="100%"
+  width="49%"
  />
 </p>
 
@@ -164,7 +164,7 @@
   <img
   src="./profile-summary-card-output/github_dark/1-repos-per-language.svg"
   alt="Repositories Per Language"
-  width="100%"
+  width="49%"
  />
 </p>
 ---
