@@ -84,8 +84,6 @@
     />
   </a>
 
-  &nbsp;&nbsp;
-
   <a href="mailto:andrewmelad108@gmail.com">
     <img
       src="https://skillicons.dev/icons?i=gmail"
