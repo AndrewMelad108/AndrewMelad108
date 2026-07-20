@@ -152,44 +152,21 @@
   />
 </p>
 
-<table>
-  <tr>
-    <td width="49%" align="center">
-      <img
-        src="./profile-summary-card-output/github_dark/1-repos-per-language.svg"
-        alt="Repositories Per Language"
-        width="100%"
-      />
-    </td>
+<p>
+  <img
+  src="./profile-summary-card-output/github_dark/1-repos-per-language.svg"
+  alt="Repositories Per Language"
+  width="100%"
+ />
+</p>
 
-    <td width="50%" align="center">
-      <img
-        src="./profile-summary-card-output/github_dark/2-most-commit-language.svg"
-        alt="Most Commit Language"
-        width="100%"
-      />
-    </td>
-  </tr>
-
-  <tr>
-    <td width="49%" align="center">
-      <img
-        src="./profile-summary-card-output/github_dark/3-stats.svg"
-        alt="GitHub Statistics"
-        width="100%"
-      />
-    </td>
-
-    <td width="50%" align="center">
-      <img
-        src="./profile-summary-card-output/github_dark/4-productive-time.svg"
-        alt="Productive Time"
-        width="100%"
-      />
-    </td>
-  </tr>
-</table>
-
+<p>
+  <img
+  src="./profile-summary-card-output/github_dark/1-repos-per-language.svg"
+  alt="Repositories Per Language"
+  width="100%"
+ />
+</p>
 ---
 
 # 🔥 GitHub Streak
