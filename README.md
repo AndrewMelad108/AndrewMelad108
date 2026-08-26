@@ -1,18 +1,18 @@
 <img
-  width="100%"
-  src="https://capsule-render.vercel.app/api?type=waving&color=ADFF2F&height=160&section=header&text=Andrew%20Melad&fontSize=42&fontColor=000000&animation=fadeIn&fontAlignY=35"
-  alt="Andrew Melad Header"
+width="100%"
+src="https://capsule-render.vercel.app/api?type=waving&color=ADFF2F&height=160&section=header&text=Andrew%20Melad&fontSize=42&fontColor=000000&animation=fadeIn&fontAlignY=35"
+alt="Andrew Melad Header"
 />
 
 <h1 align="center">Hi 👋, I'm Andrew Melad</h1>
 
 <h3 align="center">
-  Frontend Developer | React, Vue, Next.js & React Native
+  Software Engineer | Full-Stack, Frontend & Mobile Development
 </h3>
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=ADFF2F&center=true&vCenter=true&width=750&lines=Frontend+Developer;React+%7C+Vue+%7C+Next.js+%7C+React+Native;Building+AI+Personal+Assistants;Learning+AI+Automation+SaaS"
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=ADFF2F&center=true&vCenter=true&width=850&lines=Software+Engineer;React+%7C+Vue+%7C+Next.js+%7C+React+Native;Node.js+%7C+TypeScript+%7C+PostgreSQL;Building+Web%2C+Mobile+%26+Backend+Systems"
     alt="Typing introduction"
   />
 </p>
@@ -44,38 +44,48 @@
 
 # 🚀 About Me
 
-- 🔭 I’m currently working on **AI Personal Assistants**
-- 🌱 I’m currently learning **AI Automation SaaS**
-- 💻 I enjoy building responsive, scalable and user-friendly web applications
-- ⚡ I’m interested in frontend architecture, automation and AI-powered products
-- 🤝 I’m open to collaborating on frontend, mobile and SaaS projects
+* 💼 Software Engineer working across **frontend, backend and mobile applications**
+* 🚚 Worked on **ShipBlu**, improving merchant and customer-facing web applications
+* 📱 Built the first functional version of the **ParcelPay Mobile App** using React Native and TypeScript
+* ⚙️ Built backend APIs, database schemas, integrations and tests for **ParcelPay Backend**
+* 🛒 Built **Al Mtger**, a merchant dashboard for products, orders, customers, payments and storefront management
+* 🧩 I enjoy building reusable component systems and improving existing application architecture
+* 🐛 I focus on solving real-world issues around APIs, authentication, permissions, performance and edge cases
+* 🤖 Interested in AI-powered products, automation and SaaS development
+* 🤝 Open to collaborating on web, mobile, backend and SaaS projects
 
 ### 💬 Ask Me About
 
-- React and Next.js
-- Vue.js
-- React Native
-- JavaScript and TypeScript
-- Frontend architecture
-- REST APIs and Node.js
-- AI automation workflows
-- Responsive UI development
+* React & Next.js
+* Vue.js
+* React Native & Expo
+* JavaScript & TypeScript
+* Frontend architecture & design systems
+* Node.js & Express.js
+* REST APIs
+* PostgreSQL & TypeORM
+* Authentication & authorization
+* API validation with Zod & oRPC
+* Jest & Supertest
+* Responsive UI & RTL/LTR support
+* AI integrations & automation workflows
 
-### 🧠 Tech Stack I’m Exploring
+### 🧠 Currently Exploring
 
-- Next.js
-- Neon Database
-- Inngest
-- Better Auth
-- Cryptomus
-- AI Automation
-- SaaS Architecture
+* Next.js
+* React Query
+* Better Auth
+* Neon Database
+* Inngest
+* AI Automation
+* n8n
+* SaaS Architecture
 
 ---
 
 # 🌐 Connect With Me
 
-<p>
+<p align="center">
   <a href="https://www.linkedin.com/in/andrewmelad/">
     <img
       src="https://skillicons.dev/icons?i=linkedin"
@@ -106,21 +116,71 @@
   />
 </p>
 
+<h3 align="center">Mobile Development</h3>
+
+<p align="center">
+  <img
+    src="https://img.shields.io/badge/React_Native-Mobile_Development-ADFF2F?style=for-the-badge&logo=react&logoColor=000000"
+    alt="React Native"
+  />
+  <img
+    src="https://img.shields.io/badge/Expo-React_Native-ADFF2F?style=for-the-badge&logo=expo&logoColor=000000"
+    alt="Expo"
+  />
+</p>
+
 <h3 align="center">Styling & UI</h3>
 
 <p align="center">
   <img
-    src="https://skillicons.dev/icons?i=tailwind,bootstrap"
+    src="https://skillicons.dev/icons?i=tailwind,bootstrap,sass"
     alt="Styling technologies"
   />
 </p>
 
-<h3 align="center">Backend & Databases</h3>
+<h3 align="center">Backend Development</h3>
 
 <p align="center">
   <img
-    src="https://skillicons.dev/icons?i=nodejs,express,mongodb"
+    src="https://skillicons.dev/icons?i=nodejs,express"
     alt="Backend technologies"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://img.shields.io/badge/TypeORM-ORM-ADFF2F?style=for-the-badge&logoColor=000000"
+    alt="TypeORM"
+  />
+  <img
+    src="https://img.shields.io/badge/Zod-Validation-ADFF2F?style=for-the-badge&logoColor=000000"
+    alt="Zod"
+  />
+  <img
+    src="https://img.shields.io/badge/oRPC-Type_Safe_APIs-ADFF2F?style=for-the-badge&logoColor=000000"
+    alt="oRPC"
+  />
+</p>
+
+<h3 align="center">Databases</h3>
+
+<p align="center">
+  <img
+    src="https://skillicons.dev/icons?i=postgres,mongodb,firebase,supabase"
+    alt="Databases"
+  />
+</p>
+
+<h3 align="center">Testing</h3>
+
+<p align="center">
+  <img
+    src="https://img.shields.io/badge/Jest-Testing-ADFF2F?style=for-the-badge&logo=jest&logoColor=000000"
+    alt="Jest"
+  />
+  <img
+    src="https://img.shields.io/badge/Supertest-API_Testing-ADFF2F?style=for-the-badge&logoColor=000000"
+    alt="Supertest"
   />
 </p>
 
@@ -128,45 +188,77 @@
 
 <p align="center">
   <img
-    src="https://skillicons.dev/icons?i=git,github,linux,vscode"
+    src="https://skillicons.dev/icons?i=git,github,linux,vscode,vite"
     alt="Development tools"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://img.shields.io/badge/React_Native-Mobile_Development-ADFF2F?style=for-the-badge&logo=react&logoColor=000000"
-    alt="React Native"
   />
 </p>
 
 ---
 
+# 💼 Featured Work
+
+### 🚚 ShipBlu
+
+Worked on the ShipBlu platform across merchant and customer-facing applications, improving reusable UI components, tables, filters, analytics, notifications and order workflows. Also solved issues around responsive behavior, API data handling and frontend maintainability.
+
+### 🌐 Customer Portal
+
+Migrated the Customer Portal to React while preserving the existing functionality and restructuring the application for smoother AWS deployment and easier future maintenance.
+
+### 📱 ParcelPay Mobile App
+
+Built the first functional ParcelPay mobile experience using React Native and TypeScript, including OTP authentication, onboarding, Arabic/English support, shipment tracking, profiles, saved addresses, Google Maps and REST API integration.
+
+### ⚙️ ParcelPay Backend
+
+Built backend APIs and database structures for shipments, addresses, tracking events, ratings and external integrations using Node.js, TypeORM, PostgreSQL, Zod and oRPC. Added authentication, API-key integrations and integration testing with Jest and Supertest.
+
+### 🛒 Al Mtger
+
+Built a Vue 3 and TypeScript merchant dashboard for managing products, orders, customers, checkout links, payments, shipping and storefront customization. Worked on reusable validation, custom fields, image management, responsive previews, RTL/LTR support, permissions, token refresh and complex API edge cases.
+
+### 🤖 AI Personal Assistants
+
+Built a full-stack application featuring 10 specialized AI assistants using Next.js, React, Node.js and external AI models to support different daily tasks through an interactive experience.
+
+---
+
 # ⚡ GitHub Profile Summary
 
-<p>
+<p align="center">
   <img
     src="./profile-summary-card-output/github_dark/0-profile-details.svg"
     alt="GitHub Profile Details"
+    width="98%"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="./profile-summary-card-output/github_dark/1-repos-per-language.svg"
+    alt="Repositories Per Language"
+    width="49%"
+  />
+  <img
+    src="./profile-summary-card-output/github_dark/2-most-commit-language.svg"
+    alt="Most Commit Language"
     width="49%"
   />
 </p>
 
-<p>
+<p align="center">
   <img
-  src="./profile-summary-card-output/github_dark/1-repos-per-language.svg"
-  alt="Repositories Per Language"
-  width="49%"
- />
+    src="./profile-summary-card-output/github_dark/3-stats.svg"
+    alt="GitHub Stats"
+    width="49%"
+  />
+  <img
+    src="./profile-summary-card-output/github_dark/4-productive-time.svg"
+    alt="Productive Time"
+    width="49%"
+  />
 </p>
 
-<p>
-  <img
-  src="./profile-summary-card-output/github_dark/1-repos-per-language.svg"
-  alt="Repositories Per Language"
-  width="49%"
- />
-</p>
 ---
 
 # 🔥 GitHub Streak
@@ -213,8 +305,6 @@
     width="100%"
   />
 </p>
-
----
 
 ---
 
@@ -283,7 +373,7 @@
 </p>
 
 <img
-  width="100%"
-  src="https://capsule-render.vercel.app/api?type=waving&color=ADFF2F&height=120&section=footer"
-  alt="Footer"
+width="100%"
+src="https://capsule-render.vercel.app/api?type=waving&color=ADFF2F&height=120&section=footer"
+alt="Footer"
 />
