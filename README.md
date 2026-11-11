@@ -4,7 +4,7 @@ src="https://capsule-render.vercel.app/api?type=waving&color=ADFF2F&height=160&s
 alt="Andrew Melad Header"
 />
 
-<h1 align="center">Hi 👋, I'm Andrew Melad</h1>
+<h1 align="center">Hi, I'm Andrew Melad</h1>
 
 <h3 align="center">
   Software Engineer | Full-Stack, Frontend & Mobile Development
@@ -40,21 +40,19 @@ alt="Andrew Melad Header"
   </a>
 </p>
 
----
+# About me
 
-# 🚀 About Me
+* Software Engineer working across frontend, backend and mobile applications
+* Worked on ShipBlu, improving merchant and customer-facing web applications
+* Built the first functional version of the ParcelPay Mobile App using React Native and TypeScript
+* Built backend APIs, database schemas, integrations and tests for ParcelPay Backend
+* Built Al Mtger, a merchant dashboard for products, orders, customers, payments and storefront management
+* I enjoy building reusable component systems and improving existing application architecture
+* I focus on fixing issues with APIs, authentication, permissions, performance and edge cases
+* Interested in AI-powered products, automation and SaaS development
+* Open to collaborating on web, mobile, backend and SaaS projects
 
-* 💼 Software Engineer working across **frontend, backend and mobile applications**
-* 🚚 Worked on **ShipBlu**, improving merchant and customer-facing web applications
-* 📱 Built the first functional version of the **ParcelPay Mobile App** using React Native and TypeScript
-* ⚙️ Built backend APIs, database schemas, integrations and tests for **ParcelPay Backend**
-* 🛒 Built **Al Mtger**, a merchant dashboard for products, orders, customers, payments and storefront management
-* 🧩 I enjoy building reusable component systems and improving existing application architecture
-* 🐛 I focus on solving real-world issues around APIs, authentication, permissions, performance and edge cases
-* 🤖 Interested in AI-powered products, automation and SaaS development
-* 🤝 Open to collaborating on web, mobile, backend and SaaS projects
-
-### 💬 Ask Me About
+### Ask me about
 
 * React & Next.js
 * Vue.js
@@ -70,20 +68,18 @@ alt="Andrew Melad Header"
 * Responsive UI & RTL/LTR support
 * AI integrations & automation workflows
 
-### 🧠 Currently Exploring
+### Currently exploring
 
 * Next.js
 * React Query
 * Better Auth
 * Neon Database
 * Inngest
-* AI Automation
+* AI automation
 * n8n
-* SaaS Architecture
+* SaaS architecture
 
----
-
-# 🌐 Connect With Me
+# Connect with me
 
 <p align="center">
   <a href="https://www.linkedin.com/in/andrewmelad/">
@@ -103,11 +99,9 @@ alt="Andrew Melad Header"
   </a>
 </p>
 
----
+# Languages and tools
 
-# 🛠 Languages & Tools
-
-<h3 align="center">Frontend Development</h3>
+<h3 align="center">Frontend development</h3>
 
 <p align="center">
   <img
@@ -116,7 +110,7 @@ alt="Andrew Melad Header"
   />
 </p>
 
-<h3 align="center">Mobile Development</h3>
+<h3 align="center">Mobile development</h3>
 
 <p align="center">
   <img
@@ -129,7 +123,7 @@ alt="Andrew Melad Header"
   />
 </p>
 
-<h3 align="center">Styling & UI</h3>
+<h3 align="center">Styling and UI</h3>
 
 <p align="center">
   <img
@@ -138,7 +132,7 @@ alt="Andrew Melad Header"
   />
 </p>
 
-<h3 align="center">Backend Development</h3>
+<h3 align="center">Backend development</h3>
 
 <p align="center">
   <img
@@ -184,7 +178,7 @@ alt="Andrew Melad Header"
   />
 </p>
 
-<h3 align="center">Tools & Systems</h3>
+<h3 align="center">Tools and systems</h3>
 
 <p align="center">
   <img
@@ -193,37 +187,33 @@ alt="Andrew Melad Header"
   />
 </p>
 
----
+# Featured work
 
-# 💼 Featured Work
+### ShipBlu
 
-### 🚚 ShipBlu
+Worked on ShipBlu's merchant and customer-facing applications, improving reusable UI components, tables, filters, analytics, notifications and order workflows. Also fixed issues with responsive behavior, API data handling and frontend maintainability.
 
-Worked on the ShipBlu platform across merchant and customer-facing applications, improving reusable UI components, tables, filters, analytics, notifications and order workflows. Also solved issues around responsive behavior, API data handling and frontend maintainability.
+### Customer Portal
 
-### 🌐 Customer Portal
+Migrated the Customer Portal to React, keeping the existing functionality and restructuring the application so AWS deployment and future maintenance are easier.
 
-Migrated the Customer Portal to React while preserving the existing functionality and restructuring the application for smoother AWS deployment and easier future maintenance.
+### ParcelPay Mobile App
 
-### 📱 ParcelPay Mobile App
+Built the first functional version of the ParcelPay mobile app using React Native and TypeScript. It includes OTP authentication, onboarding, Arabic/English support, shipment tracking, profiles, saved addresses, Google Maps and REST API integration.
 
-Built the first functional ParcelPay mobile experience using React Native and TypeScript, including OTP authentication, onboarding, Arabic/English support, shipment tracking, profiles, saved addresses, Google Maps and REST API integration.
-
-### ⚙️ ParcelPay Backend
+### ParcelPay Backend
 
 Built backend APIs and database structures for shipments, addresses, tracking events, ratings and external integrations using Node.js, TypeORM, PostgreSQL, Zod and oRPC. Added authentication, API-key integrations and integration testing with Jest and Supertest.
 
-### 🛒 Al Mtger
+### Al Mtger
 
 Built a Vue 3 and TypeScript merchant dashboard for managing products, orders, customers, checkout links, payments, shipping and storefront customization. Worked on reusable validation, custom fields, image management, responsive previews, RTL/LTR support, permissions, token refresh and complex API edge cases.
 
-### 🤖 AI Personal Assistants
+### AI Personal Assistants
 
-Built a full-stack application featuring 10 specialized AI assistants using Next.js, React, Node.js and external AI models to support different daily tasks through an interactive experience.
+Built a full-stack app with 10 specialized AI assistants for different daily tasks, using Next.js, React, Node.js and external AI models.
 
----
-
-# ⚡ GitHub Profile Summary
+# GitHub profile summary
 
 <p align="center">
   <img
@@ -259,9 +249,7 @@ Built a full-stack application featuring 10 specialized AI assistants using Next
   />
 </p>
 
----
-
-# 🔥 GitHub Streak
+# GitHub streak
 
 <p align="center">
   <img
@@ -270,9 +258,7 @@ Built a full-stack application featuring 10 specialized AI assistants using Next
   />
 </p>
 
----
-
-# 📈 Contribution Activity Graph
+# Contribution activity graph
 
 <p align="center">
   <img
@@ -282,9 +268,7 @@ Built a full-stack application featuring 10 specialized AI assistants using Next
   />
 </p>
 
----
-
-# 📊 Complete GitHub Overview
+# Complete GitHub overview
 
 <p align="center">
   <img
@@ -294,9 +278,7 @@ Built a full-stack application featuring 10 specialized AI assistants using Next
   />
 </p>
 
----
-
-# 🗓️ Full-Year Contribution Calendar
+# Full-year contribution calendar
 
 <p align="center">
   <img
@@ -306,9 +288,7 @@ Built a full-stack application featuring 10 specialized AI assistants using Next
   />
 </p>
 
----
-
-# 🐍 Contribution Snake
+# Contribution snake
 
 <p align="center">
   <picture>
@@ -328,9 +308,7 @@ Built a full-stack application featuring 10 specialized AI assistants using Next
   </picture>
 </p>
 
----
-
-# 💡 Developer Quote
+# Developer quote
 
 <p align="center">
   <img
@@ -339,9 +317,7 @@ Built a full-stack application featuring 10 specialized AI assistants using Next
   />
 </p>
 
----
-
-# ☕ Support & Contact
+# Contact
 
 <p align="center">
   Have an idea, project or collaboration opportunity?
@@ -367,8 +343,7 @@ Built a full-stack application featuring 10 specialized AI assistants using Next
 
 <p align="center">
   <i>
-    GitHub statistics and profile assets are automatically updated every day
-    using GitHub Actions.
+    GitHub Actions updates the statistics and profile assets every day.
   </i>
 </p>
 
